@@ -1,5 +1,5 @@
 import unittest
-from PerformanceRating import PerformanceRating
+from PerformanceRating1 import PerformanceRating
 
 class TestPerformanceRating(unittest.TestCase):
 
@@ -81,4 +81,5 @@ class TestPerformanceRating(unittest.TestCase):
         self.assertEqual(pr.rate(float("inf"), False), "ERROR")
 
     # # Decision Table Testing:
+
     # def test_t16(self):
